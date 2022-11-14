@@ -1,4 +1,4 @@
-# Primeiro-site-HTML-Desafio-DIO
+# Primeiro site HTML com conceitos iniciais de CSS Desafio DIO
 Criei meu primeiro site em HTML para o desafio da DIO
 
 
