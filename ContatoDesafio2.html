@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Desafio HTML 2</title>
+      
+    <link rel="stylesheet" href="base.css">
+  </head>
+
+    <body>
+        <header>
+            <h1>
+              <div class="wrapper">
+                <img title="logotipo" alt="logo" src="logo5.png" width="100" align="center">
+                <big>Clinica Ella</big>
+              </div>
+            </h1>
+        </header>    
+        <section>
+            <nav>
+                <h1>Menu</h1>
+                <ul>
+                <li><a href="Desafio2.html" target="_self">Página Principal</a></li>
+                <li><a href="SobreDesafio2.html" target="_self">Sobre a clínica</a></li>
+                <li><a href="HorarioDesafio2.html" target="_self">Horário de atendimento</a></li>
+                <li><a href="ContatoDesafio2.html" target="_self">Contato</a></li>
+                </ul>
+            </nav>
+        
+            <article>
+                <h2><a id="contato"><img src="logo5.png" width="30">Contate-nos</a></h2>
+             <form name="message" onsubmit="alert('Recebemos sua mensagem, aguarde retorno');" autocomplete="off" target="_self" method="post">
+                <label>Nome*: </label><input type="text" name="name"><br />
+                <label>E-mail*: </label><input type="email" name="e-mail"><br />
+                <label>Assunto*: </label><input type="email" name="assunto" /><br />
+                <label>Mensagem*: </label><textarea name="message"></textarea><br />
+                <br /><br />
+                <button type="reset">Limpar</button> | <button type="submit">Enviar</button><br />
+             </form>
+             <p><h4>Ou se preferir:</h4></p>
+             <p>&phone; (41) 9 9999-9999</p>
+             <p>Av. Andrômeda, 227 - VALE SUL SHOPPING, SUL 253/254 - Jardim Satélite, São José dos Campos - SP</p>
+             <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+             src="https://maps.google.com/maps?q=Av.%20Andr%C3%B4meda%2C%20227%20-%20VALE%20SUL%20SHOPPING%2C%20SUC%20253%2F254%20-%20Jardim%20Sat%C3%A9lite%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos%20-%20SP&#038;t=m&#038;z=17&#038;output=embed&#038;iwloc=near"
+             title="Av. Andrômeda, 227 - VALE SUL SHOPPING, SUC 253/254 - Jardim Satélite, São José dos Campos - SP"
+             aria-label="Av. Andrômeda, 227 - VALE SUL SHOPPING, SUC 253/254 - Jardim Satélite, São José dos Campos - SP"></iframe>
+
+                    <a href="Desafio2.html">
+                        <p>
+                            <sup>Voltar</sup>
+                        </p>
+                    </a>
+            </article>
+        </section>
+  
+        <footer>
+            <h6>&copy; Clinica Ella 2022</h6>
+        </footer>
+    </body>
+</html>
